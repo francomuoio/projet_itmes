@@ -1,32 +1,5 @@
-.navbar_itmes ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  color: white;
-  margin-left: -55px;
-}
-
 .navbar_itmes {
-  background-color: #181760;
-  padding-bottom: 5px;
-  padding-top: 10px;
-}
-
-.navbar_itmes ul li {
-  border-left: 1px solid white;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.navbar_itmes ul li a {
-  opacity: 1;
-  text-decoration: none;
-
-  padding-left: 37px;
-}
-
-.navbar_itmes ul li a:hover {
-  opacity: 0.7;
+  background-color: #101875;
 }
 
 .dropbtn {
@@ -38,34 +11,40 @@
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+  background-color: #3e8e41;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 40px;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    color: blue;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: blue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
-.show {display:block;}
+.show {
+  display:block;
+}
