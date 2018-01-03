@@ -1,31 +1,5 @@
-.navbar_itmes ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  color: white;
-  margin-left: -55px;
-}
-
 .navbar_itmes {
-  background-color: #181760;
-  padding-bottom: 5px;
-  padding-top: 10px;
-}
-
-.navbar_itmes ul li {
-  border-left: 1px solid white;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.navbar_itmes ul li a {
-  opacity: 1;
-  text-decoration: none;
-  padding-left: 37px;
-}
-
-.navbar_itmes ul li a:hover {
-  opacity: 0.7;
+  background-color: #101875;
 }
 
 .dropbtn {
