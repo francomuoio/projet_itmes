@@ -2,10 +2,19 @@ class PagesController < ApplicationController
   def accueil
   end
 
-  def entreprise
+  def entreprise_presentation
   end
 
-  def technologie
+  def entreprise_qhse
+  end
+
+  def techno_turbine
+  end
+
+  def techno_turbo
+  end
+
+  def techno_pompe
   end
 
 
