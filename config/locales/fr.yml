@@ -1,0 +1,16 @@
+fr:
+  home:
+    title: "Accueil"
+    welcome: "BIENVENUE"
+    body1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis culpa illum ipsum eos, esse quasi. Adipisci rerum consequatur maxime unde necessitatibus beatae, exercitationem, iusto quas architecto facere, ea animi pariatur."
+    body2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus accusamus eos ipsa eum consequuntur dignissimos cupiditate voluptas illum placeat natus consectetur assumenda, quasi autem sunt delectus, rerum incidunt, ab quas!"
+    body3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, dignissimos. Ullam inventore quo repellendus quam eum unde laborum labore ratione quod facilis. Voluptatem ipsa delectus nesciunt sunt quisquam, earum tempora!"
+
+  form:
+    contact: "Nous contacter"
+
+  footer:
+    mention1: "Contact"
+    mention2: "Mentions légales"
+    mention3: "Plan du site"
+

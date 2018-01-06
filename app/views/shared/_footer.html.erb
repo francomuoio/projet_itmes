@@ -1,7 +1,18 @@
 <div class="footer">
   <div class="footer-links">
-    <p>|<%= link_to "Contact" %></p>
-    <p>|<%= link_to "Mentions légales" %></p>
-    <p>|<%= link_to "Plan du site" %>|</p>
+    <p>|<%= link_to do %>
+      <%= t('footer.mention1') %>
+      <% end %>
+    </p>
+
+    <p>|<%= link_to do %>
+      <%= t('footer.mention2') %>
+      <% end %>
+    </p>
+
+    <p>|<%= link_to do %>
+    <%= t('footer.mention3') %>
+      <% end %>
+    |</p>
   </div>
 </div>
