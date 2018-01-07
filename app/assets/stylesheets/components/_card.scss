@@ -52,13 +52,32 @@
   background-color: rgba(245, 245, 255, 0) !important;
   box-shadow: 0px 0px 0px rgba(245, 245, 255, 0) !important;
   border: rgba(245, 245, 255, 0) !important;
+
 }
 
-.image-opacity-itmes {
-  background-color: black;
-  opacity: 0.5;
+.bouton-modal-itmse:hover {
+  border: rgba(245, 245, 255, 0) !important;
 }
 
+#centre-1-itmes {
+  margin: 0px 0px 45px -10px;
+}
+
+#centre-2-itmes {
+  margin: 0px 0px 61px 11px;
+}
+
+#centre-3-itmes {
+  margin: 0px 0px 45px 57px;
+}
+
+#centre-4-itmes {
+  margin: 0px 0px 50px 69px;
+}
+
+#centre-5-itmes {
+  margin: 0px 0px 62px 92px;
+}
 // inear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)
 /**
  * Demo styles
