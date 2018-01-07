@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     get 'piece', to: 'pages#piece'
     get 'formation', to: 'pages#formation'
     get 'contact', to: 'pages#contact'
+    get 'legal_terms', to: 'pages#legal_terms'
 
   end
 end
