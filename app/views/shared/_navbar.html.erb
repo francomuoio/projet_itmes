@@ -26,15 +26,19 @@
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Intervention sur site <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#" id="taille-lien-drop-itmes">Instrumentation</a></li>
-            <li><a href="#" id="taille-lien-drop-itmes">Mise en service</a></li>
-          </ul>
-        </li>
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Surveillance <span class="caret"></span></a>
+          
+ 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">
+            
+            
+            
+            
+            
+            
+            
+            
+            <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><%= link_to "blabla", surveillance_path, id: "taille-lien-drop-itmes" %></li>
             <li><%= link_to "blabla", surveillance_path, id: "taille-lien-drop-itmes" %></li>
@@ -58,11 +62,29 @@
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Contact <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">
+            
+            
+            <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><%= link_to "blabla", contact_path, id: "taille-lien-drop-itmes" %></li>
             <li><%= link_to "blabla", contact_path, id: "taille-lien-drop-itmes" %></li>
           </ul>
+
+          <%= link_to "Surveillance", surveillance_path, class: "dropdown-toggle"%>
+        </li>
+
+        <li class="dropdown">
+          <%= link_to "Pièces de rechange", piece_path, class: "dropdown-toggle"%>
+        </li>
+
+        <li class="dropdown">
+          <%= link_to "Formation", formation_path, class: "dropdown-toggle"%>
+        </li>
+
+        <li class="dropdown">
+          <%= link_to "Contact", contact_path, class: "dropdown-toggle"%>
+
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
