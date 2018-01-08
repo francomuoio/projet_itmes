@@ -12,7 +12,9 @@
   <body>
     <%= render "shared/banner" %>
     <%= render "shared/navbar" %>
-    <%= yield %>
+    <div class="wrapper">
+      <%= yield %>
+    </div>
     <%= render "shared/formulaire" %>
     <%= render "shared/footer" %>
     <%= javascript_include_tag 'application' %>
