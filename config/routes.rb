@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     get 'techno_pompe', to: 'pages#techno_pompe'
     get 'intervention_instru', to: 'pages#intervention_instru'
     get 'intervention_service', to: 'pages#intervention_service'
+    get 'intervention_conception', to: 'pages#intervention_conception'
     get 'surveillance', to: 'pages#surveillance'
     get 'piece', to: 'pages#piece'
     get 'formation', to: 'pages#formation'
