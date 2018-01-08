@@ -2,15 +2,13 @@ fr:
   home:
     title: "Accueil"
     welcome: "BIENVENUE"
-    body1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis culpa illum ipsum eos, esse quasi. Adipisci rerum consequatur maxime unde necessitatibus beatae, exercitationem, iusto quas architecto facere, ea animi pariatur."
-    body2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus accusamus eos ipsa eum consequuntur dignissimos cupiditate voluptas illum placeat natus consectetur assumenda, quasi autem sunt delectus, rerum incidunt, ab quas!"
-    body3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, dignissimos. Ullam inventore quo repellendus quam eum unde laborum labore ratione quod facilis. Voluptatem ipsa delectus nesciunt sunt quisquam, earum tempora!"
+    body1: "Notre société est spécialisée dans deux grands domaines; l'instrumentation et la mise en service des machines tournantes."
+    body2: "De l'expertise à la mise en service en passant par le réglage et la requalification des différents systèmes, nous sommes en capacité de répondre à l’ensemble des besoins exigeants et complexes en vous proposant notre expertise et notre savoir faire acquis tout au long de nos expériences variées dans l'industrie des machines tournantes."
+    body3: "L’indisponibilité due à la défaillance de l’instrumentation peut être réduite par une maintenance préventive rigoureuse et adaptée associée à un réglage spécifique de la machine. ITMES peut vous accompagner dans cette démarche de fiabilisation."
 
   form:
     contact: "Nous contacter"
 
   footer:
-    mention1: "Contact"
-    mention2: "Mentions légales"
-    mention3: "Plan du site"
-
+    mention1: "Mentions légales"
+    mention2:

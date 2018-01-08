@@ -23,6 +23,9 @@ class PagesController < ApplicationController
   def intervention_service
   end
 
+  def intervention_conception
+  end
+
   def surveillance
   end
 
