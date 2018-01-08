@@ -48,6 +48,20 @@
   opacity: 0.1;
 }
 
+.modal-dialog {
+  width: 800px;
+}
+
+.modal-body {
+  font-size: 14px;
+}
+
+.modal-body h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
 .bouton-modal-itmse {
   background-color: rgba(245, 245, 255, 0) !important;
   box-shadow: 0px 0px 0px rgba(245, 245, 255, 0) !important;
