@@ -4,6 +4,16 @@
     <h2>L'Expertise au quotidien</h2>
   </div>
 
-  <%=image_tag 'logo.png', class: 'card-logo-itmes'%>
+  <%= link_to accueil_path do %>
+    <%=image_tag 'logo.png', class: 'card-logo-itmes'%>
+  <% end %>
+
+  <%= link_to do %>
+    <%=image_tag 'fr.png', class: 'card-fr-itmes'%>
+  <% end %>
+
+  <%= link_to do %>
+    <%=image_tag 'eng.png', class: 'card-en-itmes'%>
+  <% end %>
 
 </div>

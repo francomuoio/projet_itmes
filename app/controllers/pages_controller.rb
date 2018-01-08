@@ -17,13 +17,14 @@ class PagesController < ApplicationController
   def techno_pompe
   end
 
+  def intervention_instru
+  end
 
-  def intervention
+  def intervention_service
   end
 
   def surveillance
   end
-
 
   def piece
   end
@@ -32,5 +33,8 @@ class PagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def legal_terms
   end
 end

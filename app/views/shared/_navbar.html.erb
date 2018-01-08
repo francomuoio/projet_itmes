@@ -28,41 +28,25 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Intervention sur site <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Instrumentation</a></li>
-            <li><a href="#">Mise en service</a></li>
+            <li><%= link_to "Instrumentation", intervention_instru_path %></li>
+            <li><%= link_to "Mise en service", intervention_service_path %></li>
           </ul>
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Surveillance <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", surveillance_path %></li>
-            <li><%= link_to "blabla", surveillance_path %></li>
-          </ul>
+          <%= link_to "Surveillance", surveillance_path, class: "dropdown-toggle"%>
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pièces de rechange <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", piece_path %></li>
-            <li><%= link_to "blabla", piece_path %></li>
-          </ul>
+          <%= link_to "Pièces de rechange", piece_path, class: "dropdown-toggle"%>
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formation <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", formation_path %></li>
-            <li><%= link_to "blabla", formation_path %></li>
-          </ul>
+          <%= link_to "Formation", formation_path, class: "dropdown-toggle"%>
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", contact_path %></li>
-            <li><%= link_to "blabla", contact_path %></li>
-          </ul>
+          <%= link_to "Contact", contact_path, class: "dropdown-toggle"%>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
