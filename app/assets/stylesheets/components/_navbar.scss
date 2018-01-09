@@ -42,7 +42,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: blue;
 }
 
 .show {
@@ -51,6 +51,11 @@
 
 #couleur-bouton-lien-itmes {
   color: #F9F9F9;
+
+}
+
+#couleur-bouton-lien-itmes:hover {
+  color: #A4A4A4;
 }
 
 #taille-lien-drop-itmes {
