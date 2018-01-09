@@ -19,7 +19,7 @@
   position: relative;
   display: inline-block;
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 90px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -28,7 +28,7 @@
   position: absolute;
   background-color: #F9F9F9;
   color: blue;
-  min-width: 160px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -44,7 +44,6 @@
 
 .dropdown-menu {
   color: #F9F9F9;
-
 }
 
 .dropdown-content a:hover {

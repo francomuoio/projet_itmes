@@ -12,9 +12,9 @@ Rails.application.routes.draw do
     get 'intervention_instru', to: 'pages#intervention_instru'
     get 'intervention_service', to: 'pages#intervention_service'
     get 'intervention_conception', to: 'pages#intervention_conception'
-    get 'surveillance', to: 'pages#surveillance'
-    get 'piece', to: 'pages#piece'
-    get 'formation', to: 'pages#formation'
+    get 'intervention_surveillance', to: 'pages#intervention_surveillance'
+    get 'intervention_piece', to: 'pages#intervention_piece'
+    get 'intervention_formation', to: 'pages#intervention_formation'
     get 'contact', to: 'pages#contact'
     get 'legal_terms', to: 'pages#legal_terms'
 

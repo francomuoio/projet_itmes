@@ -26,13 +26,13 @@ class PagesController < ApplicationController
   def intervention_conception
   end
 
-  def surveillance
+  def intervention_surveillance
   end
 
-  def piece
+  def intervention_piece
   end
 
-  def formation
+  def intervention_formation
   end
 
   def contact
