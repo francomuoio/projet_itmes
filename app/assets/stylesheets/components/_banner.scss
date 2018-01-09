@@ -4,7 +4,6 @@
   text-align: center;
   background-size: cover !important;
   background-position: center;
-  background-image: url('turbine.jpg');
   color: white;
   position: relative;
   display: flex;
@@ -13,12 +12,18 @@
 
 }
 
+.card-image-itmes {
+  position: relative;
+  height: 250px;
+}
+
 .card-logo-itmes {
   position: absolute;
   left: 50px;
   top: 25px;
   height: 200px;
 }
+
 
 .card-description-itmes {
   display: flex;
