@@ -27,7 +27,7 @@
   left: 10px;
 }
 .card-description h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 .card-description p {
   font-size: 14px;
@@ -47,6 +47,20 @@
 .card-link:hover {
   opacity: 0.1;
 }
+
+.modal-dialog {
+  width: 800px;
+}
+
+.modal-body {
+  font-size: 14px;
+}
+
+.modal-body h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 
 .bouton-modal-itmse {
   background-color: rgba(245, 245, 255, 0) !important;

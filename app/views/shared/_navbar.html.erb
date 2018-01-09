@@ -28,41 +28,17 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Intervention sur site <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#" id="taille-lien-drop-itmes">Instrumentation</a></li>
-            <li><a href="#" id="taille-lien-drop-itmes">Mise en service</a></li>
+            <li><%= link_to "Instrumentation", intervention_instru_path, id: "taille-lien-drop-itmes" %></li>
+            <li><%= link_to "Mise en service", intervention_service_path, id: "taille-lien-drop-itmes" %></li>
+            <li><%= link_to "Conception 3D", intervention_conception_path, id: "taille-lien-drop-itmes" %></li>
+            <li><%= link_to "Surveillance", intervention_surveillance_path, id: "taille-lien-drop-itmes" %></li>
+            <li><%= link_to "Pièces de rechange", intervention_piece_path, id: "taille-lien-drop-itmes" %></li>
+            <li><%= link_to "Formation", intervention_formation_path, id: "taille-lien-drop-itmes" %></li>
           </ul>
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Surveillance <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", surveillance_path, id: "taille-lien-drop-itmes" %></li>
-            <li><%= link_to "blabla", surveillance_path, id: "taille-lien-drop-itmes" %></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Pièces de rechange <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", piece_path, id: "taille-lien-drop-itmes" %></li>
-            <li><%= link_to "blabla", piece_path, id: "taille-lien-drop-itmes" %></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Formation <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", formation_path, id: "taille-lien-drop-itmes" %></li>
-            <li><%= link_to "blabla", formation_path, id: "taille-lien-drop-itmes" %></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id="couleur-bouton-lien-itmes">Contact <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><%= link_to "blabla", contact_path, id: "taille-lien-drop-itmes" %></li>
-            <li><%= link_to "blabla", contact_path, id: "taille-lien-drop-itmes" %></li>
-          </ul>
+          <%= link_to "Contact", contact_path, class: "dropdown-toggle", id: "couleur-bouton-lien-itmes"%>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

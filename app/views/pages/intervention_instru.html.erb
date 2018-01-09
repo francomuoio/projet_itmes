@@ -1,0 +1,245 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-md-offset-2">
+      <div class="title">
+        <h3>Intervention sur site</h3>
+        <h1>INSTRUMENTATION</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="card">
+        <div class="image-opacity-itmes">
+        <%= image_tag 'etat-des-lieux.jpg', height: 175, width: 360, crop: :fill %>
+        </div>
+        <div class="card-description">
+          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-5">
+          <h2 id="centre-1-itmes">État des lieux instrumentation de l’installation </h2>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card">
+        <div class="image-opacity-itmes">
+          <%= image_tag 'hommeturbine.png', height: 175, width: 360 %>
+        </div>
+        <div class="card-description">
+          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-4">
+          <h2 id="centre-2-itmes">Diagnostic instrumentation</h2>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+        <div class="card-description">
+          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-2">
+            <h2 id="centre-3-itmes">Remise en état / <br>Remplacement</h2>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+      <div class="card">
+        <div class="image-opacity-itmes">
+          <%= image_tag 'biloute.jpg', height: 175, width: 360 %>
+        </div>
+        <div class="card-description">
+          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-3">
+            <h2 id="centre-4-itmes" >Requalification <br> instrumentation</h2>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card">
+        <div class="image-opacity-itmes">
+          <%= image_tag 'azerty.jpg', height: 175, width: 360 %>
+        </div>
+        <div class="card-description">
+          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-1">
+            <h2 id="centre-5-itmes" >Fabrication</h2>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Fabrication</h4>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li>Glute</li>
+            <p>Dispositif permettant de faire des mesures ainsi que des essais.</p>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <br>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Remise en état/remplacement </h4>
+        </div>
+
+        <div class="modal-body">
+          <ol>
+            <li>
+              <h4>Capteur de vibrations et de dilatation</h4>
+              <p>Dépose pour contrôle et changement des éléments d’usure et/ou défaillant. Remise en place des capteurs.</p>
+            </li>
+
+            <li>
+              <h4>Remplacement des manomètres</h4>
+              <p>Ou installation de nouveaux points de mesure sur des lignes n’en équiper.</p>
+            </li>
+
+            <li>
+              <h4>Thermocouples</h4>
+              <p>Changement au réparation des thermocouples. (Soudures froides/chaudes).</p>
+            </li>
+
+            <li>
+              <h4>Thermostat/pressostat</h4>
+              <p>Réglage des pressostats et manostat aux la valeurs attendues.</p>
+            </li>
+
+            <li>
+              <h4>Ligne de mesure</h4>
+              <p>Contrôle de l’ensemble de la chaîne de mesure. (Isolement, continuité).</p>
+            </li>
+
+            <li>
+              <h4>Fin de course</h4>
+              <p>Remplacement ou réglage des fin de course.</p>
+            </li>
+
+            <li>
+              <h4>Enregistreur.</h4>
+              <p>Contrôle, remise en état, ou révision de l’ensemble des enregistreurs en salle des commandes</p>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Requalification instrumentation</h4>
+        </div>
+
+        <div class="modal-body">
+          <ol>
+            <li>
+              <h4>Entrée/sortie</h4>
+              <p>Contrôle de l’ensemble de la chaîne de mesure, du capteur sur site à l’enregistreur en salle de commandes.</p>
+            </li>
+
+            <li>
+              <h4>Réglages/calibrage</h4>
+              <p>Réglage des capteurs de la ligne d’arbres. (Mise à zéro de la ligne d’arbres).</p>
+            </li>
+
+            <li>
+              <h4>Passage sur banc statique</h4>
+              <p>Dispositif permettant le controle des différents capteurs de dilatation et position axial.</p>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Diagnostique instrumentation</h4>
+        </div>
+
+        <div class="modal-body">
+         <p>Diagnostic sur l’instrumentation défaillante ou hors service.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">État des lieux instrumentation de l’installation </h4>
+        </div>
+
+        <div class="modal-body">
+          <p>Contrôle durant le cycle ou en phase d’arrêt de l’ensemble de l’instrumentation du GTA et de ses auxiliaires afin de prévoir leur maintenance.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

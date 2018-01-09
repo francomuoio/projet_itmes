@@ -1,0 +1,14 @@
+fr:
+  home:
+    title: "Accueil"
+    welcome: "BIENVENUE"
+    body1: "Notre société est spécialisée dans deux grands domaines; l'instrumentation et la mise en service des machines tournantes."
+    body2: "De l'expertise à la mise en service en passant par le réglage et la requalification des différents systèmes, nous sommes en capacité de répondre à l’ensemble des besoins exigeants et complexes en vous proposant notre expertise et notre savoir faire acquis tout au long de nos expériences variées dans l'industrie des machines tournantes."
+    body3: "L’indisponibilité due à la défaillance de l’instrumentation peut être réduite par une maintenance préventive rigoureuse et adaptée associée à un réglage spécifique de la machine. ITMES peut vous accompagner dans cette démarche de fiabilisation."
+
+  form:
+    contact: "Nous contacter"
+
+  footer:
+    mention1: "Mentions légales"
+    mention2:

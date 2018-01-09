@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="fr_FR" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>TODO</title>
     <%= csrf_meta_tags %>
@@ -12,7 +13,9 @@
   <body>
     <%= render "shared/banner" %>
     <%= render "shared/navbar" %>
-    <%= yield %>
+    <div class="wrapper">
+      <%= yield %>
+    </div>
     <%= render "shared/formulaire" %>
     <%= render "shared/footer" %>
     <%= javascript_include_tag 'application' %>
