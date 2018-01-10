@@ -4,9 +4,14 @@
     <h2>L'Expertise au quotidien</h2>
   </div>
 
+  <%= link_to do %>
+    <%=image_tag 'turbine.jpg', class: 'card-image-itmes'%>
+  <% end %>
+
   <%= link_to accueil_path do %>
     <%=image_tag 'logo.png', class: 'card-logo-itmes'%>
   <% end %>
+
 
   <%= link_to do %>
     <%=image_tag 'fr.png', class: 'card-fr-itmes'%>
